@@ -9,9 +9,8 @@ License: MIT + file LICENSE
 URL: https://github.com/hrlai/SGtraits
 BugReports: https://github.com/hrlai/SGtraits/issues
 Depends: 
+    austraits (>= 3.1.0),
     R (>= 4.0.0)
-Imports: 
-    austraits (>= 3.1.0)
 Remotes: 
     traitecoevo/austraits
 Encoding: UTF-8

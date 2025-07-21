@@ -1,17 +1,17 @@
-#' Load AusTraits database into R console
+#' Load trait database into R console
 #'
 #' @param version character string - version number of database
 #' @param doi character string - doi of particular version
-#' @param path file path to where AusTraits will be downloaded
-#' @param update if TRUE, AusTraits versions .json will be re-downloaded
+#' @param path file path to where the database will be downloaded
+#' @param update if TRUE, database versions .json will be re-downloaded
 #'
-#' @return a large list containing AusTraits data tables
+#' @return a large list containing data tables
 #' @export
 #' @seealso get_versions get_version_latest
 #'
 #' @examples
 #' \dontrun{
-#' austraits <- load_austraits(version = "3.0.2", path = "data/austraits")
+#' SGtraits <- load_database(version = "0.0.2", path = "data/SGtraits")
 #' }
 
 load_database <- function(doi = NULL, version = NULL, path = "data/SGtraits", update = FALSE){
@@ -208,7 +208,7 @@ get_versions <- function(path = "data/austraits", update = TRUE){
 
 #' Retrieve the latest version of AusTraits
 #'
-#' @inheritParams load_austraits
+#' @inheritParams load_database
 #' @export
 #' @return character string of latest version
 

@@ -24,7 +24,8 @@ load_database(
 a large list containing data tables
 }
 \description{
-Load trait database into R console
+Currently this is a slightly modification of the \code{load_austraits}
+function tailored for SGtraits.
 }
 \examples{
 \dontrun{

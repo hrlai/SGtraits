@@ -1,5 +1,8 @@
 #' Load trait database into R console
 #'
+#' Currently this is a slightly modification of the \code{load_austraits}
+#' function tailored for SGtraits.
+#'
 #' @param version character string - version number of database
 #' @param doi character string - doi of particular version
 #' @param path file path to where the database will be downloaded
